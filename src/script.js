@@ -885,7 +885,6 @@ function crearLeyenda() {
 
   contenido += `
     <div style="margin-top: 12px; padding-top: 10px; border-top: 1px solid #ddd; font-size: 10px; color: #666; line-height: 1.4;">
-      <strong>Controles:</strong><br>
       📊 Datos: OpenStreetMap
     </div>
   `;
