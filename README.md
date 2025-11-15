@@ -53,3 +53,7 @@ Este proyecto es una visualización interactiva en 3D del casco urbano de Gálda
 - Los edificios se clasifican automáticamente según las etiquetas de OSM (amenity, building, tourism, etc.).
 - La altura de los edificios se determina por la etiqueta `building:levels` o por defecto una altura mínima.
 - La animación sutil en los edificios ayuda a visualizar la topografía.
+
+## Video
+
+**Enlace:** [IG-Pr_Sem-8.mkv](https://alumnosulpgc-my.sharepoint.com/:v:/g/personal/aythami_perez109_alu_ulpgc_es/EQl6gd7cfKBBnWgF52clnoABo1x3TKt1zM5g-jT0rSzqFQ?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=KaHq6Y) 
