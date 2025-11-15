@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visualización 3D - Casco Urbano de Gáldar</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="info">
+      <h2>🌍 Gáldar - Casco Urbano</h2>
+      <p><strong>Visualización 3D con datos OpenStreetMap</strong></p>
+      <p>• Mapa real de Gáldar</p>
+      <p>• Edificios en 3D clasificados por tipo</p>
+      <p>• Red de calles y vías</p>
+      <p>• Leyenda interactiva desplegable</p>
+
+      <div class="controls">
+        <h4>🎮 Controles de Cámara</h4>
+
+        <!-- Solo Orbit visible inicialmente -->
+        <div id="orbit-controls" class="control-mode">
+          <strong>Modo Orbit:</strong>
+          <p>🖱️ Click izquierdo + arrastrar → Rotar alrededor del centro</p>
+          <p>📍 Rueda del ratón → Zoom in/out</p>
+          <p>🖱️ Click derecho + arrastrar → Desplazar vista</p>
+        </div>
+
+        <!-- Trackball oculto inicialmente -->
+        <div id="trackball-controls" class="control-mode" style="display: none">
+          <strong>Modo Trackball:</strong>
+          <p>🖱️ Click izquierdo + arrastrar → Rotación libre 3D</p>
+          <p>📍 Rueda del ratón → Zoom in/out</p>
+          <p>🖱️ Click derecho + arrastrar → Desplazar vista</p>
+        </div>
+
+        <div class="tips">
+          <strong>💡 Consejos:</strong>
+          <p>• Usa <strong>Orbit</strong> para navegación tradicional</p>
+          <p>
+            • Usa <strong>Trackball</strong> para ángulos libres y creativos
+          </p>
+          <p>
+            • La leyenda (arriba a la derecha) muestra los tipos de edificios
+          </p>
+          <p>• Los edificios tienen animación sutil para mejor visualización</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js" type="module"></script>
+  </body>
+</html>
